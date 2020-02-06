@@ -1,0 +1,42 @@
+#root .container
+{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#root .container .card
+{
+	background-color: lightgray;
+	color: white;
+	padding: 10px;
+	box-shadow: 10px 10px 10px black;
+}
+
+.btn
+{
+	display: inline-block;
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.basket
+{
+    display: inline-block;
+    border: solid black 2px;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.basketHeader
+{
+    font-size: 4rem;
+}
+
+.basket>div
+{
+    margin: 10px 0;
+}
