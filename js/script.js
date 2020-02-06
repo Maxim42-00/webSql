@@ -214,7 +214,7 @@ function delGoodFromCustomerCart(id)
     });
 }
 
-//initGood();
+initGood();
 
 initCustomerCart();
 
